@@ -68,6 +68,7 @@
 
 6. Scrolll snap API
 
-
 7. Perfect Scroll Behavior
+
+8. Multi Column Layout
 
