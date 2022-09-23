@@ -61,4 +61,8 @@
 
 
 4. Print modifier
-    
+
+
+5. Modren aspect ratio API
+    16:9 ration for video
+
