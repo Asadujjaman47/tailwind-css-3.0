@@ -1,0 +1,58 @@
+1. setup
+    i. node project initialize:
+        > npm init -y
+
+    ii. tailwindcss install (as developer):
+        > npm install -D tailwindcss
+
+    iii. config file:
+        > npx tailwindcss init
+
+    iv. Configure your template paths:
+            content: ["./dist/**/*.html"],
+
+    v. Configure your template paths:
+        create src and dist folder
+            in src: create input.css file
+                @tailwind base;
+                @tailwind components;
+                @tailwind utilities;
+    
+    vi.  Tailwind CLI build process:
+        package.json:
+              "scripts": {
+                    "build": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+                },
+
+    vii. create dist/index.html file:
+        <!doctype html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="/dist/output.css" rel="stylesheet">
+        </head>
+        <body>
+            <h1 class="text-3xl font-bold underline">
+                Hello world!
+            </h1>
+        </body>
+        </html>
+    
+    viii. (optional) ignore VS code error:
+        create .vscode/settings.json:
+            {
+                "css.validate": false,
+                "tailwindCSS.emmetCompletions": true
+            }       
+
+    viii. build output file:
+        > npm run build
+
+
+
+
+2. JIT:
+    Just-in-Time, all the time:
+
+
