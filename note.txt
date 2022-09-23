@@ -52,9 +52,13 @@
 
 
 
-2. JIT:
+2. JIT
     Just-in-Time, all the time:
 
 
 3. Every color out-of-the-box
     - Colored box shadows
+
+
+4. Print modifier
+    
