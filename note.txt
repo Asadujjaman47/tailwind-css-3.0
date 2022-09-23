@@ -75,3 +75,11 @@
 9. Arbitrary properties
 
 10. Fancy underline style
+
+11. Play CDN
+    // it for test purpose (with-out project setup)
+    it is not recommended for big project or production project
+    but it quickly for test or play tailwind code
+
+https://tailwindcss.com/docs/installation/play-cdn
+https://tailwindcss.com/blog/tailwindcss-v3
