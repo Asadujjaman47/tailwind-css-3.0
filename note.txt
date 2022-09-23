@@ -56,3 +56,5 @@
     Just-in-Time, all the time:
 
 
+3. Every color out-of-the-box
+    - Colored box shadows
